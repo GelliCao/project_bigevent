@@ -39,7 +39,7 @@ function renderAvatar (user){
     // 获取用户头像
     // 判断是否有设置头像
     if(user.user_pic != null){
-        $(".layui-nav-img").show().attr("src",user.user_src)
+        $(".layui-nav-img").show().attr("src",user.user_pic)
         $(".text-avatar").hide()
     }else {
         $(".layui-nav-img").hide()
